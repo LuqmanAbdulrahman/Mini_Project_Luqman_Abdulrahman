@@ -43,7 +43,7 @@ func (s *MeteranService) CreateMeteran(req *model.MeteranRequest, userID uuid.UU
 
 	if prevMeteran != nil {
 		if req.Meteran < prevMeteran.Meteran {
-			return nil, errors.New("current meteran should be greater than previous meteran")
+			return nil, errors.New("meteran saat ini harus lebih besar dari meteran sebelumnya")
 		}
 
 		usage := req.Meteran - prevMeteran.Meteran
