@@ -1,5 +1,4 @@
-
-harga perkubik 5000
+MVP
 
 Spesifikasi Fitur Produk:
 1.     	Manajemen Pelanggan
@@ -23,5 +22,5 @@ Tech Stack:
 [v] App Framework	: Echo golang
 [v] ORM Library		: Gorm
 [v] DB			    : mysql
-[] Deployment		: AWS EC2
+[x] Deployment		: AWS EC2
 [v] Authentication	: JWT
